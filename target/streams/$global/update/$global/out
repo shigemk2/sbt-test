@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35d09e59[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16b6be78[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -15,6 +15,206 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json4s#json4s-native_2.10;3.2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-native_2.10/3.2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.json4s#json4s-native_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.json4s#json4s-native_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom (3.2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-native_2.10;3.2.4!json4s-native_2.10.pom(pom.original) (1743ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-native_2.10/3.2.4/jars/json4s-native_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.json4s#json4s-native_2.10;3.2.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-core_2.10/3.2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.json4s#json4s-core_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.json4s#json4s-core_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom (3.2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-core_2.10;3.2.4!json4s-core_2.10.pom(pom.original) (1713ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-core_2.10/3.2.4/jars/json4s-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.json4s#json4s-core_2.10;3.2.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-ast_2.10/3.2.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.json4s#json4s-ast_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.json4s#json4s-ast_2.10;3.2.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom (3.2.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-ast_2.10;3.2.4!json4s-ast_2.10.pom(pom.original) (1195ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.json4s/json4s-ast_2.10/3.2.4/jars/json4s-ast_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.json4s#json4s-ast_2.10;3.2.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.5.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/com.thoughtworks.paranamer/paranamer/2.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.thoughtworks.paranamer#paranamer;2.5.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.thoughtworks.paranamer#paranamer;2.5.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom (2.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.5.2!paranamer.pom(pom.original) (2551ms)[0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer-parent;2.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.5.2 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/com.thoughtworks.paranamer/paranamer-parent/2.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.thoughtworks.paranamer#paranamer-parent;2.5.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.thoughtworks.paranamer#paranamer-parent;2.5.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom (2.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.5.2!paranamer-parent.pom(pom.original) (1983ms)[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus#codehaus-parent;1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus#codehaus-parent;1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.codehaus/codehaus-parent/1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus#codehaus-parent;1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus#codehaus-parent;1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom (1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus#codehaus-parent;1!codehaus-parent.pom(pom.original) (2051ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.codehaus/codehaus-parent/1/jars/codehaus-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/codehaus/codehaus-parent/1/codehaus-parent-1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/com.thoughtworks.paranamer/paranamer-parent/2.5.2/jars/paranamer-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.5.2/paranamer-parent-2.5.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/com.thoughtworks.paranamer/paranamer/2.5.2/jars/paranamer.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.5.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scalap/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scalap;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scalap;2.10.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom (2.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scalap;2.10.0!scalap.pom(pom.original) (2425ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scalap/2.10.0/jars/scalap.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scala-compiler/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom (2.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.0!scala-compiler.pom(pom.original) (1536ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scala-compiler/2.10.0/jars/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scala-reflect/2.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom (2.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.pom(pom.original) (1998ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/shige/.ivy2/local/org.scala-lang/scala-reflect/2.10.0/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [compile][0m
@@ -22,6 +222,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [runtime][0m
@@ -30,6 +293,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -41,6 +367,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -51,6 +440,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [test-internal][0m
@@ -61,6 +513,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.json4s#json4s-core_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.json4s#json4s-ast_2.10;3.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-ast_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->com.thoughtworks.paranamer#paranamer;2.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.4->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.10;3.2.4->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#sbt-test_2.10;0.1-SNAPSHOT->org.json4s#json4s-native_2.10;3.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbt-test_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -128,11 +643,53 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/shige/projects/sbt-test/target/resolution-cache/default/sbt-test_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.4/json4s-native_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-native_2.10;3.2.4!json4s-native_2.10.jar (2619ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.4/json4s-core_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-core_2.10;3.2.4!json4s-core_2.10.jar (6119ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.4/json4s-ast_2.10-3.2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-ast_2.10;3.2.4!json4s-ast_2.10.jar (1830ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.5.2/paranamer-2.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.5.2!paranamer.jar (1796ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scalap;2.10.0!scalap.jar (6754ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar (24971ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar (5273ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1591ms :: artifacts dl 41ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 30513ms :: artifacts dl 49449ms[0m
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT compile produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT runtime produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT test produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-test.xml[0m
@@ -146,5 +703,5 @@
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT docs produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT pom produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbt-test_2.10;0.1-SNAPSHOT scala-tool produced in /Users/shige/projects/sbt-test/target/resolution-cache/reports/default-sbt-test_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1591ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (30513ms resolve - 49449ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

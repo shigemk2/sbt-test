@@ -1,2 +1,6 @@
 run
 exit
+compile
+test
+run
+exit
